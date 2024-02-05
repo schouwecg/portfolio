@@ -30,7 +30,7 @@ header {
 
 
   .achtergrond {
-    background-image: url(https://schouwecg.github.io/portfolio/bonaire_2023-modified.jpg);
+    background-image: url("https://schouwecg.github.io/portfolio/bonaire_2023-modified.jpg");
   }
   
 
