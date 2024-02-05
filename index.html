@@ -1,57 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio Eric Schouw</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+</head>
+<body>
+
     <header>
-      <div id="welcome-section">
+        <div id="welcome-section"> 
         <h1>Eric Schouw</h1>
         <p>Full Stack Engineer</p>
-      </div>
+        </div>
     </header>
 
     <nav id="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#about" id="profile-link">About</a></li>
-        <li><a href="#portfolio" id="profile-link">Portfolio</a></li>
-        <li><a href="#contact" id="profile-link">Contact</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        
     </nav>
-    <!--
-<div class="pic-ctn">
-    <img src="https://schouwecg.github.io/portfolio/project_tribute.png" alt="" class="pic"/></a>
-    <img src="https://schouwecg.github.io/portfolio/project_landing_page.png" alt="" class="pic">
-    <img src="https://schouwecg.github.io/portfolio/project_tech_doc.png" alt="" class="pic">
-    <img src="https://schouwecg.github.io/portfolio/project_survey.png" alt="" class="pic">
-  </div>-->
+    
+  <div class="achtergrond"></div>
 
-    <div class="achtergrond"></div>
+<div id="about" class = "container"> 
+<h1>About</h1>
+<p> Hi!, Eric here! Nice to meet you! Welcome to my portfolio site!
+    I have a passion for creating the most beautiful websites. <span class = "kleur">Check out my porfolio</span>, and if you like what you see, contact me, and we can meet, in person, or in a different way! A great website doesn't have to be expensive. Have a great day! Eric</p>
 
-    <div id="about" class="container">
-      <h1>About</h1>
-      <p>
-        Hi!, Eric here! Nice to meet you! And welcome to my portfolio site! I am
-        passionate for creating the most beautifull websites. Check out my
-        porfolio, and if you like what you see, contact me, and we can meet, in
-        person, or in a different way! A great website doesn't have to be
-        expensive. Have a great day! Eric
-      </p>
+</div>
+
+
+    <div id="portfolio" class="container2"> 
+        <h1>Portfolio</h1>
+        <p> Take a look at some of my projects..</p>
     </div>
 
-    <div id="projects" id="portfolio">
-      <h1>Portfolio</h1>
-      <p>Take a look at some of my projects..</p>
+
+<div class="gallery" id="projects">
+    <figure>
+    <a href="https://schouwecg.github.io/mlk.github.io/" id="profile-link" target="_blank" ><img src="https://schouwecg.github.io/portfolio/project_tribute.png" alt="Photo 1" class="project-tile"></a>
+        <figcaption>A Tribute page to Martin Luther King</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://schouwecg.github.io/landing-page.github.io/" id="profile-link" target="_blank" >
+        <img src="https://schouwecg.github.io/portfolio/project_landing_page.png" alt="Photo 2" class="project-tile"></a>
+        <figcaption>Landing page for Vintage Fashion</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://schouwecg.github.io/techdoc.github.io/" id="profile-link" target="_blank" >
+        <img src="https://schouwecg.github.io/portfolio/project_tech_doc.png" alt="Photo 3" class="project-tile"></a>
+        <figcaption>Technical Documentation page about Github</figcaption>
+    </figure>
+
+    <figure>
+        <a href="https://schouwecg.github.io/fcc-survey.github.io/"  id="profile-link" target="_blank" ><img src="https://schouwecg.github.io/portfolio/project_survey.png" alt="Photo 3" class="project-tile"></a>
+        <figcaption>Survey page about Streaming Services</figcaption>
+    </figure>
+</div>
+
+
+<div id="contact" class = "container">
+<h1>Contact</h1>
+
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.075600118066!2d-68.93856268872979!3d12.106976988085075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8482f5d8097997%3A0xe4902f22b70634f1!2sBri%C3%B3n%20Square!5e0!3m2!1sen!2snl!4v1707107743976!5m2!1sen!2snl"   style="border:0;" allowfullscreen="" loading="lazy height="500px" widt="650px" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-  </body>
+<div class="address">
+<p>ericschouw@outlook.com</p><br>
+<p>Brion square</p><br>
+<p><span class="kleur">Curacao</span></p>
+</div>
+
+<footer class="footer">
+    <p class="foto">&copy; 2024 ECG Schouw </p>
+    </footer>
+</body>
 </html>
