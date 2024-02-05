@@ -31,7 +31,7 @@ header {
 
   .achtergrond {
     background-image: url("https://schouwecg.github.io/portfolio/bonaire_2023-modified.jpg");
-    z-index: 2;
+    z-index: 3;
     height: 100%;
     width: 100%;
   }
@@ -44,12 +44,13 @@ header {
 #about {
   font-size: 30px;
   position: absolute;
-  top: 1000px;
-  left: 5px;
+  top: 1120px;
+  /*left: 5px;*/
   color: #B4B4B8;
   align-items: end;
   letter-spacing: 0.6rem;
   margin-left: 5px;
+  z-index: -1;
   
 }
 
@@ -68,7 +69,7 @@ header {
 #portfolio {
   font-size: 30px;
   position: absolute;
-  top: 1530px;
+  top: 1650px;
   left: 5px;
   color: #B4B4B8;
   align-items: end;
@@ -98,6 +99,8 @@ header {
   font-size: 30px;
   display: flex;
   justify-content: space-around;
+ 
+  /*top: 400px;*/
   left: 50px;
   color: #B4B4B8;
   align-items: center;
@@ -119,6 +122,8 @@ nav {
     background: linear-gradient(to right, #333, #000);
     color: white;
     display: flex;
+    /*top: 0;
+    left: 50;*/
     position: fixed;
   top: 0;
   width: 100%;
@@ -136,6 +141,8 @@ nav {
     background: linear-gradient(to right, #333, #000);
     color: white;
     display: flex;
+    /*top: 0;
+    left: 50;*/
     position: fixed;
   top: 0;
   width: 100%;
@@ -191,14 +198,15 @@ footer {
 
 
 .gallery {
-  display: flex;
+    display: flex;
   flex-direction: row;
+  /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: left;
-  max-width: 700px;
-  margin: 5px auto;
-  margin-top: 700px;
-  z-index: 2;
+    max-width: 700px;
+    margin: 5px auto;
+    margin-top: 700px;
+    z-index: 2;
     
   
 }
@@ -211,6 +219,7 @@ figure {
 img {
    width: 350px;
     height: 350px;
+    /*border: 2px solid #333;*/
     border-radius: 8px;
     z-index: 1;
     display: flex;
