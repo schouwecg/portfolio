@@ -12,52 +12,6 @@ body {
 
 header {
     background: linear-gradient(to right, #000, #333);
-    color: white;
-    text-align: center;
-    padding: 5px;
-    font-family: 'Electrolize', sans-serif;
-    font-size: 30px;
-    margin: 0;
-}
-
-nav {
-    background: linear-gradient(to right, #333, #000);
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    color: #D89216;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  * {
-    scroll-behavior: smooth;
-  }
-}
-
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #000, #333);
-}
-
-header {
-    background: linear-gradient(to right, #000, #333);
     color: #C7C8CC;
     text-align: left;
     padding: 5px;
@@ -66,11 +20,20 @@ header {
     margin-left: 5px;
    
     line-height: 0.1;
+ 
 }
 
 #welcome-section {
   margin-top: 100px;
+  letter-spacing: 3rem;
 }
+
+
+  .achtergrond {
+    background-image: url(https://schouwecg.github.io/portfolio/bonaire_2023-modified.jpg);
+  }
+  
+
 
 #about {
   font-size: 30px;
@@ -78,17 +41,15 @@ header {
   top: 1000px;
   left: 5px;
   color: #AAD7D9;
+  align-items: end;
   
 }
 
 .container {
 
-  height: 400px;
+  height: 700px;
   width: 100%;
-  background: #000000;
-background: -moz-linear-gradient(-45deg, #000000 0%, #757375 100%);
-background: -webkit-linear-gradient(-45deg, #000000 0%, #757375 100%);
-background: linear-gradient(135deg, #000000 0%, #757375 100%);
+ background: linear-gradient(to right,#333, #000);
 }
 nav {
     background: linear-gradient(to right, #333, #000);
@@ -115,13 +76,14 @@ li {
 
 a {
     display: flex;
-    color: #AAD7D9;
+    color: orangered;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     top: 0;
     left: 50;
-    font-size: 30px;
+    font-size: 15px;
+    letter-spacing: 1.5rem;
 }
 
 a:hover {
@@ -152,6 +114,7 @@ footer {
 .pic-ctn {
   width: 100vw;
   height: 200px;
+  z-index: -3;
 }
 
 @keyframes display {
