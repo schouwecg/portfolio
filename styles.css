@@ -5,7 +5,9 @@
 }
 
 body {
-    margin: 0;
+ 
+    margin: 0 auto;
+    
     font-family: 'Arial', sans-serif;
     /*background: linear-gradient(to right, #000, #333);*/
 
@@ -34,21 +36,15 @@ header {
 
 #welcome-section {
   margin-top: 100px;
-  letter-spacing: 3rem;
+  letter-spacing: 0.5rem;
+ 
+}
+
+h1, p {
+  margin-left: 15px;
 }
 
 
-  /*.achtergrond {
-    background-image: url("https://schouwecg.github.io/portfolio/bonaire_2023-modified.jpg");
-    z-index: 3;
-    height: 100%;
-    width: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }*/
-  
   .kleur {
     color: orangered;
   }
@@ -62,7 +58,7 @@ header {
   color: #B4B4B8;
   align-items: end;
   letter-spacing: 0.6rem;
-  margin-left: 5px;
+  
   z-index: -1;
   opacity: 0.8;
   }
@@ -83,7 +79,7 @@ header {
   font-size: 30px;
   position: absolute;
   top: 1800px;
-  left: 5px;
+ 
   color: #B4B4B8;
   align-items: end;
   letter-spacing: 1rem;
@@ -100,11 +96,11 @@ header {
 #contact {
   font-size: 30px;
   position: absolute;
-  top: 2500px;
-  left: 5px;
+  top: 4500px;
+  
   color: #B4B4B8;
   align-items: end;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.2rem;
   z-index: -1;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -119,9 +115,9 @@ header {
  
   /*top: 400px;*/
   left: 50px;
-  color: #B4B4B8;
+  color: whitesmoke;
   align-items: center;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.1rem;
   z-index: 3;
   
   border-radius: 8;
@@ -192,6 +188,7 @@ a {
 
 a:hover {
     background-color: #555;
+    border-radius: 8px;
 }
 
 section {
@@ -216,14 +213,16 @@ footer {
 
 .gallery {
     display: flex;
-  flex-direction: row;
-  /*flex-wrap: wrap;*/
+  flex-direction: column;
+  
   justify-content: center;
   align-items: left;
-    max-width: 700px;
+    max-width: 650px;
     margin: 5px auto;
     margin-top: 1900px;
     z-index: 2;
+    border-style: none; 
+    
     
   
 }
@@ -231,27 +230,51 @@ footer {
 figure {
     margin: 10px;
     text-align: center;
+    object-fit:contain;
 }
 
 img {
-   width: 350px;
-    height: 350px;
-    /*border: 2px solid #333;*/
+   width: 650px;
+    height: 450px;
+    border: 2px solid #333;
     border-radius: 8px;
     z-index: 1;
     display: flex;
     align-items: center;
+    overflow: hidden;
     
     
 }
 
 figcaption {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #666;
-    letter-spacing: 0.5rem;
-    padding-top: 20px;
+    
+    font-size: 18px;
+    color: red;
+    letter-spacing: 0.2rem;
+    padding-top: 5px;
+    font-weight: 900
 }
 
+
+@media screen and (max-width: 900px) {
+  #welcome-section
+  {
+    position: static;
+  }
+  .wrapper {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  #welcome-section,
+  h1, p {
+    float: none;
+    margin: auto;
+    display: table;
+  }}
+
+
+   
+  
 
   
